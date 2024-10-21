@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url('https://m.zenmix.io/cbi/l/relaxing-background-image-5.png');/* body background*/
+    background-size: cover;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    text-align: center;
+}
+
+header {
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS98vhQMpsApOzRJZsATIVxBbsyVmVz-D8Hfw&s'); /*header background*/
+    background-size: cover;
+    color: whitesmoke;
+    text-align: center;
+    padding: 50px 0;
+}
+
+header h1 {
+    font-weight: bold;
+    font-size: 2em;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    background-color:rgb(34, 34, 34);
+}
+
+nav li {
+    margin: 0 15px;
+    color: whitesmoke;
+    cursor: pointer;
+}
+nav a{
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+p{
+    color: whitesmoke;
+}
